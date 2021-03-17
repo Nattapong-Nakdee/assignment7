@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(99, 148, 252);
+    font-family: 'Recursive', sans-serif;
+}
+
+fieldset{
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+legend{
+    background-color: coral;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 13px 30px;
+    border-radius: 15px;
+}
+
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    
+    border: 3px solid black;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}
+
+#numbox{
+    margin: 10px 0px;
+    padding-left: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#start{
+    background-color: rgb(125, 230, 148);
+    font-family: 'Recursive', sans-serif;
+    color: white;
+    margin: 10px 0px;
+    border-radius: 10px;
+    padding: 3px 15px;
+    outline: none;
+}
+
+.content span{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#color{
+    padding: 3px 15px ;
+    outline: none;
+    font-family: 'Recursive', sans-serif;
+}
+
+#timerClock{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
